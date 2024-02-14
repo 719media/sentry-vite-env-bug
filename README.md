@@ -25,6 +25,6 @@ vi vite.config.js
 npm run build
 #check out dist/index.html, note value of line: <meta name="testerson" content="TestProd">
 vi vite.config.js
-#remove sentry comment
-#check out dist/index.html, note value of line: 
+#remove sentry commented plugin in vite.config.js
+#check out dist/index.html, note value of line: <meta name="testerson" content="TestDev">
 ```
