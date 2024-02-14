@@ -8,7 +8,7 @@ import { sentryVitePlugin } from '@sentry/vite-plugin'
 export default defineConfig({
   plugins: [
     vue(),
-    sentryVitePlugin({}),
+    //sentryVitePlugin({}),
   ],
   resolve: {
     alias: {
